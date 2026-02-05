@@ -132,17 +132,12 @@ const ArticleInteractionEnhancer = (() => {
     const init = () => {
         const articleCards = document.querySelectorAll('.publication-card');
         articleCards.forEach(card => {
-            card.addEventListener('mouseenter', () => addHoverEffect(card));
-            card.addEventListener('mouseleave', () => removeHoverEffect(card));
+            card.addEventListener('mouseenter', () => addSmoothTransition(card));
         });
     };
     
-    const addHoverEffect = (element) => {
+    const addSmoothTransition = (element) => {
         element.style.transition = 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)';
-    };
-    
-    const removeHoverEffect = (element) => {
-        // Effect handled by CSS
     };
     
     return { init };
