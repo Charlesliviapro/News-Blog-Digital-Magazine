@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Breaking news and magazine articles covering global events">
+    <title>NewsHub Digital - Modern Magazine & Breaking News Platform</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Top Navigation Bar -->
+    <header class="topbar-navigation">
+        <div class="topbar-inner-container">
+            <div class="brand-identity-block">
+                <h1 class="brand-title-text">NewsHub</h1>
+                <span class="brand-subtitle-text">Digital Magazine</span>
+            </div>
+            
+            <button class="mobile-menu-trigger" id="mobileMenuActivator" aria-label="Open navigation menu">
+                <span class="trigger-line"></span>
+                <span class="trigger-line"></span>
+                <span class="trigger-line"></span>
+            </button>
+            
+            <nav class="navigation-panel" id="mainNavPanel">
+                <ul class="nav-links-collection">
+                    <li class="nav-link-item"><a href="#home" class="nav-anchor-element">Home</a></li>
+                    <li class="nav-link-item"><a href="#politics" class="nav-anchor-element">Politics</a></li>
+                    <li class="nav-link-item"><a href="#technology" class="nav-anchor-element">Technology</a></li>
+                    <li class="nav-link-item"><a href="#lifestyle" class="nav-anchor-element">Lifestyle</a></li>
+                    <li class="nav-link-item"><a href="#culture" class="nav-anchor-element">Culture</a></li>
+                    <li class="nav-link-item"><a href="#opinion" class="nav-anchor-element">Opinion</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Featured Content Showcase -->
+    <section class="featured-showcase-section">
+        <div class="showcase-content-wrapper">
+            <article class="primary-feature-article">
+                <div class="feature-visual-container">
+                    <img src="assets/images/hero-main.jpg" alt="Main featured article" class="feature-main-image">
+                    <span class="urgent-news-badge">Breaking</span>
+                </div>
+                <div class="feature-text-content">
+                    <h2 class="feature-main-heading">Revolutionary Solar Panel Technology Promises 80% Efficiency Boost in Energy Production</h2>
+                    <p class="feature-description-text">Leading research institutions collaborate on groundbreaking photovoltaic innovation that could reshape renewable energy landscape and accelerate global transition to sustainable power sources.</p>
+                    <div class="feature-attribution-data">
+                        <span class="author-credit-name">By Sarah Mitchell</span>
+                        <span class="metadata-divider">•</span>
+                        <time class="publish-timestamp" datetime="2026-02-05">February 5, 2026</time>
+                    </div>
+                </div>
+            </article>
+            
+            <div class="secondary-features-column">
+                <article class="mini-feature-card">
+                    <img src="assets/images/secondary-1.jpg" alt="Technology story" class="mini-feature-thumbnail">
+                    <h3 class="mini-feature-headline">Advanced AI Systems Transform Healthcare Diagnostics</h3>
+                    <time class="mini-feature-time">2 hours ago</time>
+                </article>
+                
+                <article class="mini-feature-card">
+                    <img src="assets/images/secondary-2.jpg" alt="Market story" class="mini-feature-thumbnail">
+                    <h3 class="mini-feature-headline">International Markets Show Strong Recovery Signals</h3>
+                    <time class="mini-feature-time">4 hours ago</time>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Category Selection Bar -->
+    <section class="category-selector-section">
+        <div class="category-inner-container">
+            <h2 class="category-section-title">Browse By Category</h2>
+            <div class="category-tiles-grid">
+                <a href="#world" class="category-tile world-category">
+                    <span class="category-emoji-icon">🌍</span>
+                    <span class="category-name-text">World</span>
+                </a>
+                <a href="#business" class="category-tile business-category">
+                    <span class="category-emoji-icon">💼</span>
+                    <span class="category-name-text">Business</span>
+                </a>
+                <a href="#tech" class="category-tile tech-category">
+                    <span class="category-emoji-icon">💻</span>
+                    <span class="category-name-text">Technology</span>
+                </a>
+                <a href="#science" class="category-tile science-category">
+                    <span class="category-emoji-icon">🔬</span>
+                    <span class="category-name-text">Science</span>
+                </a>
+                <a href="#health" class="category-tile health-category">
+                    <span class="category-emoji-icon">🏥</span>
+                    <span class="category-name-text">Health</span>
+                </a>
+                <a href="#sports" class="category-tile sports-category">
+                    <span class="category-emoji-icon">⚽</span>
+                    <span class="category-name-text">Sports</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content With Sidebar Layout -->
+    <div class="dual-column-layout">
+        <main class="primary-content-area">
+            <!-- Articles Grid Display -->
+            <section class="articles-display-section">
+                <h2 class="section-primary-heading">Recent Publications</h2>
+                
+                <div class="publications-grid-container">
+                    <article class="publication-card">
+                        <div class="card-image-wrapper">
+                            <img src="assets/images/article-1.jpg" alt="Climate policy article" class="card-visual-image">
+                            <span class="card-topic-tag">Environment</span>
+                        </div>
+                        <div class="card-text-block">
+                            <h3 class="card-headline-text">Global Climate Summit Establishes New Emission Reduction Framework</h3>
+                            <p class="card-preview-excerpt">International delegates agree on comprehensive climate action plan with binding targets for carbon neutrality by 2050 across participating nations.</p>
+                            <div class="card-metadata-footer">
+                                <span class="card-author-name">Emily Rodriguez</span>
+                                <time class="card-publish-time">6 hours ago</time>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="publication-card">
+                        <div class="card-image-wrapper">
+                            <img src="assets/images/article-2.jpg" alt="Space discovery" class="card-visual-image">
+                            <span class="card-topic-tag">Space</span>
+                        </div>
+                        <div class="card-text-block">
+                            <h3 class="card-headline-text">Astronomers Detect Previously Unknown Galaxy Clusters</h3>
+                            <p class="card-preview-excerpt">Revolutionary telescope technology enables identification of distant cosmic structures that challenge current theories about early universe development.</p>
+                            <div class="card-metadata-footer">
+                                <span class="card-author-name">Dr. James Chen</span>
+                                <time class="card-publish-time">8 hours ago</time>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="publication-card">
+                        <div class="card-image-wrapper">
+                            <img src="assets/images/article-3.jpg" alt="City planning" class="card-visual-image">
+                            <span class="card-topic-tag">Urban</span>
+                        </div>
+                        <div class="card-text-block">
+                            <h3 class="card-headline-text">Smart Infrastructure Program Launches Across Major Cities</h3>
+                            <p class="card-preview-excerpt">Innovative urban development initiative integrates IoT sensors and AI management systems to optimize traffic flow and resource distribution.</p>
+                            <div class="card-metadata-footer">
+                                <span class="card-author-name">Marcus Thompson</span>
+                                <time class="card-publish-time">10 hours ago</time>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="publication-card">
+                        <div class="card-image-wrapper">
+                            <img src="assets/images/article-4.jpg" alt="Medical research" class="card-visual-image">
+                            <span class="card-topic-tag">Healthcare</span>
+                        </div>
+                        <div class="card-text-block">
+                            <h3 class="card-headline-text">Breakthrough Therapy Demonstrates Remarkable Results in Trials</h3>
+                            <p class="card-preview-excerpt">Experimental treatment protocol shows significant improvement for patients with previously difficult-to-treat chronic medical conditions.</p>
+                            <div class="card-metadata-footer">
+                                <span class="card-author-name">Dr. Lisa Patel</span>
+                                <time class="card-publish-time">12 hours ago</time>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="publication-card">
+                        <div class="card-image-wrapper">
+                            <img src="assets/images/article-5.jpg" alt="Education technology" class="card-visual-image">
+                            <span class="card-topic-tag">Education</span>
+                        </div>
+                        <div class="card-text-block">
+                            <h3 class="card-headline-text">Interactive Learning Systems Revolutionize Classroom Experience</h3>
+                            <p class="card-preview-excerpt">Educational institutions adopt cutting-edge digital platforms that personalize instruction and enhance student engagement across all grade levels.</p>
+                            <div class="card-metadata-footer">
+                                <span class="card-author-name">Robert Kumar</span>
+                                <time class="card-publish-time">14 hours ago</time>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="publication-card">
+                        <div class="card-image-wrapper">
+                            <img src="assets/images/article-6.jpg" alt="Film festival" class="card-visual-image">
+                            <span class="card-topic-tag">Culture</span>
+                        </div>
+                        <div class="card-text-block">
+                            <h3 class="card-headline-text">Global Cinema Festival Showcases Diverse Storytelling</h3>
+                            <p class="card-preview-excerpt">Annual celebration of independent filmmaking brings together artists from six continents to present innovative narratives and documentary works.</p>
+                            <div class="card-metadata-footer">
+                                <span class="card-author-name">Alexandra Wong</span>
+                                <time class="card-publish-time">1 day ago</time>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </main>
+
+        <!-- Supplementary Content Sidebar -->
+        <aside class="supplementary-sidebar-area">
+            <!-- Popular Articles Module -->
+            <div class="sidebar-content-module">
+                <h3 class="module-heading-text">Most Popular</h3>
+                <div class="module-inner-content">
+                    <article class="trending-article-item">
+                        <span class="popularity-rank-number">1</span>
+                        <div class="trending-article-details">
+                            <h4 class="trending-article-title">Economic Indicators Point to Sustained Growth Period</h4>
+                            <span class="trending-view-count">45.2K reads</span>
+                        </div>
+                    </article>
+                    
+                    <article class="trending-article-item">
+                        <span class="popularity-rank-number">2</span>
+                        <div class="trending-article-details">
+                            <h4 class="trending-article-title">Championship Series Attracts Record Viewership</h4>
+                            <span class="trending-view-count">38.7K reads</span>
+                        </div>
+                    </article>
+                    
+                    <article class="trending-article-item">
+                        <span class="popularity-rank-number">3</span>
+                        <div class="trending-article-details">
+                            <h4 class="trending-article-title">Ancient Artifacts Uncovered in Archaeological Dig</h4>
+                            <span class="trending-view-count">32.4K reads</span>
+                        </div>
+                    </article>
+                    
+                    <article class="trending-article-item">
+                        <span class="popularity-rank-number">4</span>
+                        <div class="trending-article-details">
+                            <h4 class="trending-article-title">Sustainable Fashion Takes Center Stage at Design Week</h4>
+                            <span class="trending-view-count">28.9K reads</span>
+                        </div>
+                    </article>
+                    
+                    <article class="trending-article-item">
+                        <span class="popularity-rank-number">5</span>
+                        <div class="trending-article-details">
+                            <h4 class="trending-article-title">Tech Company Announces Major Funding Milestone</h4>
+                            <span class="trending-view-count">24.1K reads</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+            <!-- Email Subscription Module -->
+            <div class="sidebar-content-module subscription-highlight-module">
+                <h3 class="module-heading-text">Daily Updates</h3>
+                <div class="module-inner-content">
+                    <p class="subscription-pitch-text">Receive curated news briefings directly to your email every morning at 7 AM.</p>
+                    <form class="email-subscription-form" id="emailSubscriptionForm">
+                        <input 
+                            type="email" 
+                            class="email-input-field" 
+                            placeholder="Enter your email"
+                            aria-label="Email address for subscription"
+                            required
+                        >
+                        <button type="submit" class="subscribe-action-button">Join Now</button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Curated Picks Module -->
+            <div class="sidebar-content-module">
+                <h3 class="module-heading-text">Staff Recommendations</h3>
+                <div class="module-inner-content">
+                    <article class="compact-article-display">
+                        <img src="assets/images/editors-1.jpg" alt="Recommended article" class="compact-article-image">
+                        <div class="compact-article-info">
+                            <h4 class="compact-article-heading">Advances in Regenerative Agriculture Methods</h4>
+                            <time class="compact-publish-date">Feb 4, 2026</time>
+                        </div>
+                    </article>
+                    
+                    <article class="compact-article-display">
+                        <img src="assets/images/editors-2.jpg" alt="Recommended article" class="compact-article-image">
+                        <div class="compact-article-info">
+                            <h4 class="compact-article-heading">Quantum Processing Achieves Commercial Viability</h4>
+                            <time class="compact-publish-date">Feb 3, 2026</time>
+                        </div>
+                    </article>
+                    
+                    <article class="compact-article-display">
+                        <img src="assets/images/editors-3.jpg" alt="Recommended article" class="compact-article-image">
+                        <div class="compact-article-info">
+                            <h4 class="compact-article-heading">Historic Landmarks Undergo Digital Preservation</h4>
+                            <time class="compact-publish-date">Feb 2, 2026</time>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </aside>
+    </div>
+
+    <!-- Bottom Footer Section -->
+    <footer class="bottom-footer-section">
+        <div class="footer-content-grid">
+            <div class="footer-column-block">
+                <h4 class="footer-column-title">About NewsHub</h4>
+                <p class="footer-descriptive-text">Delivering comprehensive journalism and magazine-quality reporting on topics that matter to our global audience.</p>
+            </div>
+            
+            <div class="footer-column-block">
+                <h4 class="footer-column-title">Navigation</h4>
+                <ul class="footer-links-list">
+                    <li><a href="#about" class="footer-nav-link">About Us</a></li>
+                    <li><a href="#contact" class="footer-nav-link">Contact</a></li>
+                    <li><a href="#careers" class="footer-nav-link">Careers</a></li>
+                    <li><a href="#advertise" class="footer-nav-link">Advertise</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column-block">
+                <h4 class="footer-column-title">Legal Info</h4>
+                <ul class="footer-links-list">
+                    <li><a href="#privacy" class="footer-nav-link">Privacy Policy</a></li>
+                    <li><a href="#terms" class="footer-nav-link">Terms of Service</a></li>
+                    <li><a href="#cookies" class="footer-nav-link">Cookie Policy</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column-block">
+                <h4 class="footer-column-title">Social Media</h4>
+                <div class="social-links-cluster">
+                    <a href="#twitter" class="social-platform-link" aria-label="Follow on Twitter">Twitter</a>
+                    <a href="#facebook" class="social-platform-link" aria-label="Follow on Facebook">Facebook</a>
+                    <a href="#instagram" class="social-platform-link" aria-label="Follow on Instagram">Instagram</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom-bar">
+            <p class="copyright-notice-text">&copy; <span id="copyrightYear">2026</span> NewsHub Digital Magazine. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
