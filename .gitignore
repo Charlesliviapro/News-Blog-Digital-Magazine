@@ -1,0 +1,9 @@
+*.sh
+.DS_Store
+node_modules/
+*.log
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
